@@ -6,7 +6,7 @@
 /*   By: vsavilov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 15:51:30 by vsavilov          #+#    #+#             */
-/*   Updated: 2021/09/20 21:10:46 by vsavilov         ###   ########.fr       */
+/*   Updated: 2021/09/21 13:49:00 by vsavilov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,9 +55,6 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
-
-//own functions
-char	*ft_strncpy(char *dest, const char *src, size_t n);
 
 //bonus
 typedef struct s_list
