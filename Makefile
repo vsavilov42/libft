@@ -6,7 +6,7 @@
 #    By: vsavilov <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/11/15 16:56:48 by vsavilov          #+#    #+#              #
-#    Updated: 2021/11/16 11:39:26 by vsavilov         ###   ########.fr        #
+#    Updated: 2022/01/14 15:48:50 by Vsavilov         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,6 +41,7 @@ SRCS_NAME = ft_isdigit.c \
 		ft_strchr.c	 \
 		ft_strrchr.c \
 		ft_strncmp.c \
+		ft_strcmp.c \
 		ft_memchr.c \
 		ft_memcmp.c \
 		ft_strnstr.c \
@@ -60,6 +61,7 @@ SRCS_NAME = ft_isdigit.c \
 		ft_strmapi.c \
 		ft_striteri.c \
 		ft_split.c \
+		ft_lstnewchar.c \
 		ft_lstnew_bonus.c \
 		ft_lstadd_front_bonus.c \
 		ft_lstsize_bonus.c \

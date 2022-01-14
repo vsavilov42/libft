@@ -6,7 +6,7 @@
 /*   By: vsavilov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 15:51:30 by vsavilov          #+#    #+#             */
-/*   Updated: 2021/12/13 14:42:38 by Vsavilov         ###   ########.fr       */
+/*   Updated: 2022/01/14 15:47:41 by Vsavilov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,5 +79,15 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+
+// list char
+
+typedef struct s_listc
+{
+	char			*str;
+	struct s_listc	*next;
+}	t_listc;
+
+t_listc	*ft_lstnewchar(char *str);
 
 #endif
