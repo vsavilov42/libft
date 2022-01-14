@@ -6,7 +6,7 @@
 /*   By: vsavilov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/18 15:51:30 by vsavilov          #+#    #+#             */
-/*   Updated: 2022/01/14 15:47:41 by Vsavilov         ###   ########.fr       */
+/*   Updated: 2022/01/14 15:55:34 by Vsavilov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,7 @@ void	ft_putnbr_fd(int n, int fd);
 
 char	*ft_strrev(char *str);
 int		ft_atoi_base(const char *num, const char *base);
+int		ft_strcmp(const char *s1, const char *s2);
 
 //bonus
 
