@@ -6,13 +6,13 @@
 /*   By: Vsavilov <Vsavilov@student.42Madrid.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/14 15:56:48 by Vsavilov          #+#    #+#             */
-/*   Updated: 2022/01/14 16:01:04 by Vsavilov         ###   ########.fr       */
+/*   Updated: 2022/01/14 16:06:08 by Vsavilov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <libft.h>
 
-int	*ft_lstnewchar(char *str)
+t_listc	*ft_lstnewchar(char *str)
 {
 	t_listc	*listc;
 
